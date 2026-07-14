@@ -102,6 +102,12 @@ Display Complete Chat History
 
 ---
 
+# 🎥 Demo Video
+
+Project demonstration showing the continuous 3-message conversation and Memory Vault functionality:
+
+[Watch Demo Video] sha256:fb6487bd6c80b509e3c0a482a0c877fd6d389371eb41b94309d35d4bb5f17b6f
+
 # 🧠 Memory Implementation
 
 The chatbot uses **Streamlit Session State** as a temporary memory vault.
@@ -226,6 +232,12 @@ Through this assignment, I learned:
 
 **Amit Kumar Singh Kurmi**
 
+<<<<<<< HEAD
 B.Tech Computer Science Engineering  
 AI Builder Track - Virtual Summer Internship 2026  
 MirAI School of Technology
+=======
+B.Tech Computer Science Engineering
+AI Builder Track - Virtual Summer Internship 2026
+MirAI School of Technology
+>>>>>>> 09f16a17b1fa99b1e0949acd8216877d70741d03

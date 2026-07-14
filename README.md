@@ -96,3 +96,70 @@ Save Assistant Message
 |
 Display Complete Chat History
 
+
+---
+
+# 🧠 Memory Implementation
+
+The chatbot uses Streamlit Session State as a temporary memory vault.
+
+Example:
+
+```python
+st.session_state.messages = [
+    {
+        "role": "user",
+        "content": "Hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hi! How can I help?"
+    }
+]
+
+- Every user message and AI response is stored inside this list.
+
+- During every Streamlit rerun, the stored messages are loaded and displayed again.
+
+# 📂 Project Structure
+
+Multiverse-Chatbot-Memory-Vault/
+
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .env
+└── .gitignore
+
+# ⚙️ Installation and Setup
+
+1. Clone the repository
+git clone <your-github-repository-link>
+
+
+2. Navigate to project folder
+cd Multiverse-Chatbot-Memory-Vault
+
+
+3. Install dependencies
+pip install -r requirements.txt
+
+
+4. Create .env file
+
+Add your Gemini API key:
+
+GEMINI_API_KEY=your_api_key_here
+
+
+5. Run the application
+streamlit run app.py
+
+# 📸 Application Workflow
+- User selects a chatbot personality from the sidebar.
+- User enters a message using the chat input.
+- User message is stored in Session State.
+- Gemini generates a personality-based response.
+- Assistant response is stored in Session State.
+- Complete conversation history is displayed.

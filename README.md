@@ -99,6 +99,12 @@ Display Complete Chat History
 
 ---
 
+# 🎥 Demo Video
+
+Project demonstration showing the continuous 3-message conversation and Memory Vault functionality:
+
+[Watch Demo Video](sha256:fb6487bd6c80b509e3c0a482a0c877fd6d389371eb41b94309d35d4bb5f17b6f)
+
 # 🧠 Memory Implementation
 
 The chatbot uses Streamlit Session State as a temporary memory vault.
@@ -120,12 +126,6 @@ st.session_state.messages = [
 - Every user message and AI response is stored inside this list.
 
 - During every Streamlit rerun, the stored messages are loaded and displayed again.
-
-# 🎥 Demo Video
-
-Project demonstration showing the continuous 3-message conversation and Memory Vault functionality:
-
-[Watch Demo Video](sha256:fb6487bd6c80b509e3c0a482a0c877fd6d389371eb41b94309d35d4bb5f17b6f)
 
 # 📂 Project Structure
 

@@ -121,6 +121,12 @@ st.session_state.messages = [
 
 - During every Streamlit rerun, the stored messages are loaded and displayed again.
 
+# 🎥 Demo Video
+
+Project demonstration showing the continuous 3-message conversation and Memory Vault functionality:
+
+[Watch Demo Video](sha256:fb6487bd6c80b509e3c0a482a0c877fd6d389371eb41b94309d35d4bb5f17b6f)
+
 # 📂 Project Structure
 
 Multiverse-Chatbot-Memory-Vault/
@@ -135,7 +141,7 @@ Multiverse-Chatbot-Memory-Vault/
 # ⚙️ Installation and Setup
 
 1. Clone the repository
-git clone <your-github-repository-link>
+git clone https://github.com/AmitKumarSinghAI/Multiverse-Chatbot-Memory-Vault
 
 
 2. Navigate to project folder

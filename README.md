@@ -163,3 +163,22 @@ streamlit run app.py
 - Gemini generates a personality-based response.
 - Assistant response is stored in Session State.
 - Complete conversation history is displayed.
+
+# 🎯 Learning Outcomes
+
+Through this assignment, I learned:
+
+- How Streamlit reruns applications.
+- How to maintain application state using st.session_state.
+- How to build conversational AI interfaces.
+- How to integrate Gemini API with Streamlit.
+- How prompt engineering controls AI personality behavior.
+
+
+# 👨‍💻 Author
+
+Amit Kumar Singh Kurmi
+
+B.Tech Computer Science Engineering
+AI Builder Track - Virtual Summer Internship 2026
+MirAI School of Technology

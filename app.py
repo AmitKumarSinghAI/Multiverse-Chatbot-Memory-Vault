@@ -10,7 +10,7 @@ from google import genai
 
 # Get Gemini API Key
 # api_key = os.getenv("GEMINI_API_KEY")
-api_key  = genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
 if not api_key:
     st.error("GEMINI_API_KEY missing. Add it in .env file")

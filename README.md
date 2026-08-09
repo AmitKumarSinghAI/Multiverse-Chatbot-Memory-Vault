@@ -240,4 +240,4 @@ MirAI School of Technology
 B.Tech Computer Science Engineering
 AI Builder Track - Virtual Summer Internship 2026
 MirAI School of Technology
->>>>>>> 09f16a17b1fa99b1e0949acd8216877d70741d03
+>>>>>>
